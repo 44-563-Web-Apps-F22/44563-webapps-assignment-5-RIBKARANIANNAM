@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <style>  img{
-    width: 400;
-    height: 500;
+  
       
-  }
-  </style>
+
   <title>Details of Insects</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,6 +16,24 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="insects.html">Interesting Insects</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+    <a class="nav-link active" href="basic.html">Basic</a>
+    </li>
+    <li class="nav-item">
+   <a class="nav-link active" href="advanced.html">Advanced</a>
+    </li>
+    </ul>
+    </div>
+  </nav>
 
 <h1>Insects by Ribkarani Annam</h1>
 <div class="container">
@@ -54,5 +69,137 @@
   </div>
  
 </div>
+<br>
+<table class="table table-striped table-bordered table-hover table-sm">
+    
+  <caption>Insects Details Table </caption>
+  <thead class="table-pink">
+    <tr>
+      <th scope="col">Letter</th>
+      <th scope="col">Insect</th>
+      <th scope="col">City</th>
+      <th scope="col">River</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-light">
+      <th scope="row">A</th>
+      <td>Ant</td>
+      <td>Albany</td>
+      <td>Amu Darya</td>
+    </tr>
+    <tr class = "table-info">
+      <th scope="row">N</th>
+      <td>Nightcrawler</td>
+      <td>Nashville </td>
+      <td>Nantahala River</td>
+    </tr>
+    <tr class="table-danger">
+      <th scope="row">N</th>
+      <td>Netwinged</td>
+      <td> North Las Vegas</td>
+      <td>Naches River</td>
+    </tr>
+    <tr class="bg-info">
+      <th scope="row" >A</th>
+      <td>Angel Insects</td>
+      <td>Alexandria</td>
+      <td>Alabama River</td>
+    </tr>
+    <tr class="table-warning">
+      <th scope="row">M</th>
+      <td>Mosquito</td>
+      <td>Miami</td>
+      <td>Mad River</td>
+    </tr>
+    <tr class="table-secondary">
+      <th scope="row">R</th>
+      <td>Red Butterfly</td>
+      <td>Rochester</td>
+      <td>Raft River</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<label>All Buttons</label>
+<br>
+<button class="btn">A</button>
+<button class="btn">N</button>
+<button class="btn">N</button>
+<button class="btn">A</button>
+<button class="btn">M</button>
+<button class="btn">R</button>
+<br>
+<label>Button Groups</label>
+<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+<div class="btn-group" role="group" aria-label="first group">
+  <button type="button" class="btn btn-success">A</button>
+  <button type="button" class="btn btn-success">M</button>
+  <button type="button" class="btn btn-success">R</button>
+</div>
+
+<div class="btn-group" role="group" aria-lable="second group">
+ <button type="button" class="btn btn-warning">N</button>
+ <button type="button" class="btn btn-warning">A</button>
+</div> 
+<div class="btn-group" role="group" aria-lable="third group">
+  <button type="button" class="btn btn-danger">M</button>
+</div> 
+</div>
+<br>
+<div class="dropdown">
+<button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">Dropdown button</button>
+<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+ <a class="dropdown-item" href="basic.html">Basic Html Page</a>
+ <a class="dropdown-item" href="advanced.html">Advanced Html Page</a>
+
+</div>
+</div>
+<br>
+<form>
+<div class="form-group">
+  <label for="exampleInputEmail1" class="form-group">Email address</label>
+  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+</div>
+<div class="form-group">
+  <label for="exampleInputPassword1" class="form-group">Insect</label>
+  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your insect">
+</div>
+<div class="form-check">
+  <label class="form-check-label" for="exampleCheck1">Sign up for newsletter? </label>
+  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+</div>
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<br>
+<div class="card-group">
+<div class="card" style="width: 18rem;">
+  <img src="ant.jpg" class="card-img-top" alt="ants">
+  <div class="card-body">
+    <h5 class="card-title">Ants</h5>
+    <p class="card-text">Ants are eusocial insects of the family Formicidae and, along with the related wasps and bees, belong to the order Hymenoptera. Ants evolved from vespoid wasp ancestors in the Cretaceous period. More than 13,800 of an estimated total of 22,000 species have been classified. They are easily identified by their geniculate (elbowed) antennae and the distinctive node-like structure that forms their slender waists.</p>
+    <a href="https://en.wikipedia.org/wiki/Ant" class="btn btn-primary">Ants Page</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="mosquito.jpg" class="card-img-top" alt="Mosquitos">
+  <div class="card-body">
+    <h5 class="card-title">Mosquitos</h5>
+    <p class="card-text">Mosquitoes (or mosquitos) are members of a group of almost 3,600 species of small flies within the family Culicidae (from the Latin culex meaning "gnat").[1] The word "mosquito" (formed by mosca and diminutive -ito)[2] is Spanish and Portuguese for "little fly".[3][4] Mosquitoes have a slender segmented body, one pair of wings, one pair of halteres, three pairs of long hair-like legs, and elongated mouthparts.</p>
+    <a href="https://en.wikipedia.org/wiki/Mosquito" class="btn btn-primary">Mosquito Page</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="red butterfly.jpg" class="card-img-top" alt="Red ButterFlys">
+  <div class="card-body">
+    <h5 class="card-title">Red Butterflys</h5>
+    <p class="card-text">Red Butterfly is a postmodern romantic tragedy written & directed by Jon Alston and starring Diogo Morgado, Christine Evangelista, Wilson Jermaine Heredia, Laurence Mason, and Byrdie Bell. Red Butterfly is an original screenplay written by Jon Alston. </p>
+    <a href="https://en.wikipedia.org/wiki/Red_Butterfly#:~:text=Red%20Butterfly%20is%20a%20postmodern,screenplay%20written%20by%20Jon%20Alston." class="btn btn-primary">Red Butterfly Page</a>
+  </div>
+</div>
+</div>
+</body>
+</html>
 </body>
 </html>
